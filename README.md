@@ -1,5 +1,4 @@
 # ReportingRestAPI
 Rest API for reporting tool
-
-# Include logging, jpa and profiling
+Includes logging, jpa and profiling
 
