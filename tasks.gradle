@@ -1,0 +1,9 @@
+ task copyConfiguration << {
+    println "Target environment: $project.ext.envrionment"
+
+    copy {
+        from "src/main/resources/environment/$project.ext.envrionment"
+        into "src/main/resources"
+        include "*/"
+    }
+}
