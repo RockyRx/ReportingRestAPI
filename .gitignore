@@ -1,7 +1,9 @@
 target/*
 build/*
 .gradle/*
-.settings/*
 gradlew
 gradlew.bat
 settings.gradle
+/bin/
+/build/
+.settings

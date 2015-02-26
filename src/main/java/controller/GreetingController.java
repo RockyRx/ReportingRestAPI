@@ -33,7 +33,7 @@ public class GreetingController {
     @RequestMapping("/greeting")
     @ResponseBody
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) { 
-    	logger.info("Server Info: " + servletContext.getServerInfo());
+    	logger.info("Server Info 001: " + servletContext.getServerInfo());
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
