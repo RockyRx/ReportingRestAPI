@@ -1,5 +1,5 @@
 # ReportingRestAPI
-##### Rest API for reporting tool
+##### Rest API for reporting tool (This is only a barebone project)
 * Includes logging, jpa and profiling
 * Profiling isn't same as in Maven
 
